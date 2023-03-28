@@ -2,7 +2,14 @@
     font-family: 'ForzanLight';
     src: url("../fonts/ForzanLight-ALWAA.ttf");
 }
-
+@font-face {
+    font-family: 'regularbrush';
+    src: url("../fonts/Regular\ Brush.otf");
+}
+@font-face {
+    font-family: pleasewrite;
+    src: url("../fonts/Please\ write\ me\ a\ song.ttf");
+}
 * {
     margin:0;
     padding:0;
@@ -41,6 +48,9 @@
     font-family: arial;
     color:White;
     padding:8px;
+}
+.nav-right li:hover {
+    border:solid white 1px;
 }
 .icon-mid {
     display:inline-block;
@@ -109,9 +119,51 @@
     
 }
 .item3 {
-    margin-top: -458px;
+    margin-top: -493px;
     float:right;
     padding:8px;
     width:400px;
     
+}
+.signup-section {
+    border:solid black 1px;
+    height:250px;
+
+}
+.signup {
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left:25px;
+    padding:15px;
+    display:inline-block;
+    border:solid black 1px;
+    font-size:40px;
+}
+.submit {
+    background-color: orangered;
+    color:white;
+    display:inline-block;
+    margin:20px;
+    border:solid orangered 1px;
+    padding:10px;
+    width:5%;
+    text-align: center;
+}
+.submit:hover {
+    
+}
+.email {
+    font-size:15px;
+    height:30px;
+    width:20%;
+}
+.division {
+    margin-left:25px;
+    width:90%;
+    display:block;
+}
+.emailpara {
+    font-style:normal;
+    font-size:18px;
+    padding:8px;
 }
