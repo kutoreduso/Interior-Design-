@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ForzanLight';
+    src: url("../fonts/ForzanLight-ALWAA.ttf");
+}
+
 * {
     margin:0;
     padding:0;
@@ -15,8 +20,7 @@
 }
 .logo {
     font-family: arial;
-    color:white;
-   
+    color:white; 
     float:left;
     padding:8px;
     display:inline-block;
@@ -48,7 +52,7 @@
     font-size: 35px;
     text-transform: uppercase;
     font-family: arial;
-    margin-left: 520px;
+    margin-left: 530px;
     width:700px;
     text-align: center;
     display:block;
@@ -62,4 +66,52 @@
     padding: 18px;
     font-size: 25px;;
     text-align: center;
+}
+.main-section {
+    height:300px;
+}
+.about-web {
+    padding:15px;
+    font-family:arial;
+    text-align: center;
+}
+.about-para {
+    width:80%;
+    display:inline-block;
+    margin-right: 35px;
+    padding:8px;
+    font-size:15px;
+}
+.about-title {
+    text-transform: uppercase;
+    width:20%;
+    display:inline-block;
+    margin-right: 25px;
+    padding:8px;
+}
+.article-section {
+    height:600px;
+    margin-left:10%;
+    
+    width:80%;
+}
+.item1 {
+    float:left;
+    padding:8px;
+    width:400px;
+    
+}
+.item2 {
+    margin-top: -01px;
+    margin-left: 530px;
+    padding:8px;
+    width:400px;
+    
+}
+.item3 {
+    margin-top: -458px;
+    float:right;
+    padding:8px;
+    width:400px;
+    
 }
